@@ -1,5 +1,7 @@
 import time
 import sys
+#Usar el siguiente código en la terminal del codespace para ejecutarlo:
+#python3 keep_alive.py
 
 def actividad(intervalo=600):
     while True:
