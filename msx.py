@@ -11,7 +11,19 @@
 
 # Si no aparece el botón, reinicia la página o cambia de navegador.
 
+import time
+import sys
+#Usar el siguiente código en la terminal del codespace para ejecutarlo:
+#python3 keep_alive.py
 
+def actividad(intervalo=600):
+    while True:
+        print("Manteniendo actividad en el server xd")  #Epico
+        sys.stdout.flush()  #Hace que imprima de one
+        time.sleep(interval)  # Espera el intervalo especificado (en segundos)
+
+if __name__ == "__main__":
+    actividad(intervalo=600)
 
 
 
