@@ -18,7 +18,7 @@ def actividad(intervalo=600):
     while True:
         print("Manteniendo actividad en el server xd")  #Epico
         sys.stdout.flush()  #Hace que imprima de one
-        time.sleep(interval)  # Espera el intervalo especificado (en segundos)
+        time.sleep(intervalo)  # Espera el intervalo especificado (en segundos)
 
 
 
